@@ -1,25 +1,13 @@
-body {
-    background-color: lightgrey;
-}
-article > header {
-    padding-left: 500px;
-}
-article > h3 {
-    padding-left: 500px;
-}
-p.hotTake {
-    padding-left: 550px;
-    text-align: left;
-}
-article > p {
-    text-align: left
-}
 
 /* mobile */
 @media only screen and (max-width: 415px) {
     article {
         padding-left: 10px;
         padding-right: 10px;
+    }
+    body > h1 {
+        font-size: 40px;
+        text-decoration: underline;
     }
     article > header {
         padding-left: 0px;
@@ -31,4 +19,37 @@ article > p {
     p.hotTake {
         padding-left: 0px;
     }
+    #breaker {
+        text-align: center;
+    }
+}
+
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+article > header {
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+header > p {
+    font-size: 15px;
+}
+article > h3 {
+    font-size: 22px;
+    padding-left: 20px;
+}
+p.hotTake {
+    padding-left: 20px;
+    text-align: left;
+}
+article > p {
+    text-align: left;
+    padding-left: 20px;
 }
