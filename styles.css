@@ -32,7 +32,9 @@ h1 {
     font-size: 100px;
     text-decoration: underline;
 }
-
+h2 {
+    text-decoration: underline;
+}
 article > header {
     font-size: 25px;
     padding-left: 20px;
