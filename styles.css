@@ -25,8 +25,10 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #E6D8B9;
 }
+
+/* COLORS #44A0GF #8CC7AB #FBFBFB #E6D8B9 #3D4750 #171A1F */
 
 h1 {
     font-size: 100px;
@@ -45,13 +47,21 @@ header > p {
 }
 article > h3 {
     font-size: 22px;
-    padding-left: 20px;
+    padding-left: 50px;
 }
-p.hotTake {
-    padding-left: 20px;
-    text-align: left;
+#takeNote{
+    padding-left: 50px;
 }
 article > p {
     text-align: left;
     padding-left: 20px;
+}
+#bottomDate {
+    text-align: right;
+    padding-right: 25px;
+}
+
+article {
+    background-color: #8CC7AB;
+    border: darkgreen solid 5px;
 }
