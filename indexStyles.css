@@ -51,6 +51,7 @@ article > h3 {
 }
 #takeNote{
     padding-left: 50px;
+    font-weight: bold;
 }
 article > p {
     text-align: left;
