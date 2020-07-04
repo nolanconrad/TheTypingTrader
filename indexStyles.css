@@ -1,6 +1,11 @@
 
 /* mobile */
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 415px) {   
+    .navBar {
+        background-color: grey;
+        position: sticky;
+        top: 0;
+    }
     article {
         padding-left: 10px;
         padding-right: 10px;
@@ -24,18 +29,51 @@
     }
 }
 
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    'header'
+    'navBar'
+    'dailyDiscussion'
+    'footer';
+    grid-template-rows: 20% auto auto auto
+}
+
 body {
     background-color: #E6D8B9;
 }
 
 /* COLORS #44A0GF #8CC7AB #FBFBFB #E6D8B9 #3D4750 #171A1F */
 
+.navBar {
+    background-color: grey;
+    position: sticky;
+    top: 0;
+}
 h1 {
     font-size: 100px;
     text-decoration: underline;
 }
 h2 {
     text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: xx-large;
+}
+
+a:hover {
+    background-color: lightcyan;
+    outline: lightcyan 5px solid;
+    
+}
+#navBar2 {
+    list-style: none;
 }
 article > header {
     font-size: 25px;
