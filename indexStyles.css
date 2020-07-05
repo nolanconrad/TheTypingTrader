@@ -11,10 +11,16 @@
         'footer';
         grid-template-rows: auto auto auto auto
     }
+    .header {
+        padding: 15px
+    }
     .navBar {
         background-color: grey;
         position: sticky;
         top: 0;
+    }
+    .navBar2 {
+        margin-left: 10px;
     }
     article {
         padding-left: 10px;
@@ -70,7 +76,8 @@ body {
     top: 0;
     border: 0;
     margin: 0;
-    padding: 0;
+    display: inline;
+    padding: 10px;
 }
 h1 {
     font-size: 100px;
@@ -123,4 +130,7 @@ article > p {
 article {
     background-color: #8CC7AB;
     border: darkgreen solid 5px;
+}
+.dailyDiscussion {
+    padding: 10px
 }
