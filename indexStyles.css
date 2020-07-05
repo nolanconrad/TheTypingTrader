@@ -1,6 +1,16 @@
 
 /* mobile */
 @media only screen and (max-width: 415px) {   
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        'header'
+        'navBar'
+        'dailyDiscussion'
+        'footer';
+        grid-template-rows: 20% auto auto auto
+    }
     .navBar {
         background-color: grey;
         position: sticky;
