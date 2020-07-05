@@ -16,7 +16,7 @@
     }
     .navBar {
         background-color: grey;
-        position: sticky;
+        position: fixed;
         top: 0;
     }
     .navBar2 {
