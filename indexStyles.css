@@ -13,10 +13,10 @@
     }
     .header {
         padding: 15px;
-        background-color: honeydew;
+        background-color: #00783e;
     }
     .navBar {
-        background-color: grey;
+        background-color: #47b881;
         position: sticky;
         top: 0;
     }
@@ -63,9 +63,10 @@
 }
 .header {
     padding-left: 20px;
+    background-color: #006a4e;
 }
 body {
-    background-color: #E6D8B9;
+    background-color: #5ca08e;
     margin: 0;
     padding: 0px;
     border: 0px;
@@ -74,7 +75,7 @@ body {
 /* COLORS #44A0GF #8CC7AB #FBFBFB #E6D8B9 #3D4750 #171A1F */
 
 .navBar {
-    background-color: grey;
+    background-color: #207567;
     position: sticky;
     top: 0;
     border: 0;
@@ -141,8 +142,8 @@ article > p {
 }
 
 article {
-    background-color: #8CC7AB;
-    border: darkgreen solid 5px;
+    background-color: #b8d5cd;
+    border: #8abaae solid 5px;
 }
 .dailyDiscussion {
     padding: 10px
